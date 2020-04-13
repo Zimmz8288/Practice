@@ -1,0 +1,100 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.backimage {
+    background: url('Images/Jax and Alicia background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url('Images/corona green.jpg');
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    color: #36f309;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 
+}
+
+h1 span {
+    background-color: black;
+}
+
+.header a {
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    border-bottom: 2px solid #36f309;
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+    height: 99px;
+    position: absolute;
+    left: 0%;
+}
+
+.logo1{
+    width: 120px; 
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 99px;
+}
+
+/* this is for ul tag */
+.menu{
+    position: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    width: 200px;
+}
+
+.menu li a {
+    color: #36f309;
+    text-decoration: none;
+    font-family: 'Comic Sans MS';
+    text-transform: uppercase;
+}
+
+.menu li:hover{
+    background: #2c51e1;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+}
